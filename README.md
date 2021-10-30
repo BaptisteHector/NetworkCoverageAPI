@@ -42,9 +42,9 @@ It uses :
 >    }
 >]
 
-- brandName (string)    : Name of the network provider
+- brandName (string) : Name of the network provider
 - is2GCovered (boolean) : If 2G is covered or not.
 - is3GCovered (boolean) : If 3G is covered or not.
 - is4GCovered (boolean) : If 4G is covered or not.
-- globalApproximation   : The difference between the address in the query and the provider data exact address.
+- globalApproximation (double) : The difference between the address in the query and the provider data exact address.
   > |data latitude - request latitude| + |data longitude - request longitude|
